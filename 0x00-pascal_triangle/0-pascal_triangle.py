@@ -28,7 +28,6 @@ def pascal_triangle(n):
     """
     pascals = []
     if n == 0:
-        pascals.append([1])
         return pascals
     for k in range(0, n):
         iter = [pascal_formula(k, i) for i in range(0, k + 1)]
@@ -37,4 +36,4 @@ def pascal_triangle(n):
 
 
 if __name__ == "__main__":
-    print(pascal_triangle())
+    pascal_triangle()
