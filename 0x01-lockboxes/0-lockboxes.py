@@ -1,4 +1,13 @@
+#!/usr/bin/python3
+"""
+Function canUnlockAll
+"""
+
+
 def canUnlockAll(boxes):
+    """
+    Can unlock All
+    """
     if not boxes:
         return False
 
