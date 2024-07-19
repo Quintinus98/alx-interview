@@ -6,7 +6,7 @@ def minOperations(n):
     """
     minOperations
     """
-    if (n < 2):
+    if n < 2:
         return 0
     ops, base = 0, 2
     while base <= n:
